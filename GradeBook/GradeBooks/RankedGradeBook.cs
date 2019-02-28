@@ -24,15 +24,15 @@ namespace GradeBook.GradeBooks
             {
                 return 'A';
             }
-            else if(grades[2*threshold - 1] < averageGrade)
+            else if(grades[2*threshold - 1] <= averageGrade)
             {
                 return 'B';
             }
-            else if(grades[3*threshold - 1] < averageGrade)
+            else if(grades[3*threshold - 1] <= averageGrade)
             {
                 return 'C';
             }
-            else if(grades[4*threshold - 1] < averageGrade)
+            else if(grades[4*threshold - 1] <= averageGrade)
             {
                 return 'D';
             }else
